@@ -1,0 +1,28 @@
+/*----- variables -------*/
+
+$primaryColor: #172bae;
+$secondaryColor: #C8DDFF;
+
+
+ul{
+    &.contactIconList{
+        display: flex;
+        display:-ms-flexbox;
+        display: -webkit-flex;
+
+        li{
+            color: $primaryColor;
+            font-size: 24px;
+            padding:6px;
+            opacity: 0.3;
+            transition: opacity 0.5s ease;
+
+            &:hover{
+                opacity: 1;
+            }
+        }
+
+
+    }
+
+}

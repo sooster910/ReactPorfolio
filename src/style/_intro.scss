@@ -1,0 +1,28 @@
+@import './global';
+
+section#intro{
+    background: #f8f5ef;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    .hero_container{
+        position: absolute;
+        bottom: 37%;
+        margin: 0 14%;
+
+        img{
+            width: 150px;
+            height:auto;
+        }
+        
+        .hero_text{
+            color: $primaryColor;
+            letter-spacing: 7px;
+            font-size: 28px;
+            padding: 9px 0;
+        }
+        }
+    
+  }
+  
