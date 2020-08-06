@@ -1,4 +1,7 @@
-# New Portfolio with React (2020)q
+# New Portfolio with React (2020)
+### Recently, I decided to leave my legacy portfolio built in 2018, and build new portfolio with React. 
+### This website will be focused on not only expression of my insight but also improving user experience and Search Engine Optimization (SEO).
+### More features will be updated. 
 
 ## Available Scripts
 
