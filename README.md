@@ -1,8 +1,8 @@
 # New Portfolio with React (2020)
 ### Recently, I decided to leave my legacy portfolio built in 2018, and create new portfolio with React. 
 ### This website will be focused on :
- ..* Mobile First Design 
- ..* Search Engine Optimization (SEO)
+* Mobile First Design 
+* Search Engine Optimization (SEO)
  
  _More features will be updated._ 
 
