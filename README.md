@@ -1,4 +1,4 @@
-# New Portfolio with React (2020)q
+# New Portfolio with React (2020)
 
 ## Available Scripts
 

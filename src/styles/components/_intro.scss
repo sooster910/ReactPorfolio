@@ -1,0 +1,36 @@
+@import '../global/base';
+@import '../global/breakpoints';
+
+section#intro{
+    background: #f8f5ef;
+    position: relative;
+    
+    // @include media("<=phone"){
+    //     background-color: greenyellow;
+
+    // }
+
+    .hero_container{
+        position: relative;
+        width: 72%;
+        margin: 0 auto;
+
+        img{
+            width: 71px;
+            height:auto;
+        }
+        p{
+            line-height: 20px;
+        }
+        .hero_text{
+            color: $primaryColor;
+            letter-spacing: 7px;
+            font-size: 33px;
+            padding: 14px 0;
+        }
+    }
+
+
+    
+}
+  

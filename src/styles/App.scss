@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import'./style/intro';
-@import './style/global';
+@import'./components/intro';
+@import './global/base';
+@import './global/breakpoints';
 
 /*----------- RESET ----------*/
 a{text-decoration:none; color:inherit; cursor:pointer;}
@@ -13,17 +14,12 @@ p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
 
-
-
 body {
   margin: 0;
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // color: $secondaryColor;
+  overflow-y: scroll ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

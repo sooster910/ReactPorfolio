@@ -1,0 +1,114 @@
+/*----- variables -------*/
+
+$primaryColor: #172bae;
+$secondaryColor: #C8DDFF;
+
+/*----- common -------*/
+section{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 20px;
+    padding: 14px 0;
+    text-align: center;
+    color: rgb(150,164,182);
+    letter-spacing: 4px; 
+}
+h3{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: #3f3f3f;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #dadada;
+
+}
+
+/*----- NAVBAR -------*/
+nav{
+
+    position: sticky;
+    background: #f8f5ef;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    height: 70px;
+    z-index: 10;
+    border-top: 1px solid #dadada;
+   
+   ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+        li{
+            color: $primaryColor;
+            font-size: 12px;
+            padding:6px;
+            opacity: 0.3;
+        }
+
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+   }
+}
+
+/*-- ContactListIcon--*/
+ul{
+    &.contactIconList{
+        display: flex;
+        display:-ms-flexbox;
+        display: -webkit-flex;
+        padding-top: 18px;
+
+        li{
+            color: $primaryColor;
+            font-size: 24px;
+            padding:6px;
+            opacity: 0.3;
+            transition: opacity 0.5s ease;
+
+            &:hover{
+                opacity: 1;
+            }
+        }
+
+
+    }
+
+}
+
+/*-- Skills--*/
+section{
+    &#skills{
+        width: 80%;
+        margin: 0 auto;
+
+        .skills_container{
+            &_list{
+                padding: 15px 0;
+            }
+        }    
+
+        .item{
+            display: inline-block;
+            width: auto;
+            padding: 9px 12px;
+            background: rgb(209, 212, 237);
+            font-weight: 600;
+            color: $primaryColor;
+            border-radius: 5px;
+            margin: 5px 7px;
+            font-size: 13px;
+        }
+
+    }
+}
