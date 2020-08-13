@@ -1,36 +1,37 @@
 
-@import '../global/base';
+// @import '../common/base';
+@use "../common/base" as *;
 
 section {
-        &#experience{
-            background-color: #0f3470;
-          
-        }
-        
+      
         main{
              @extend %sectionWidth;
              
             .experience_box_wrapper{
-                position: relative;
-                display:-moz-grid;
-                display:-ms-grid;
-                display:-webkit-grid;
-                display: grid;
-                grid-template-columns: 50px 1fr;
-                column-gap: 10px;
-                color: #ffffff;
-
-                .experience_box{
+                color: #3f3f3f;
+                .css-1b3lipl{
                     &:before{
-                        content:'';
-                        display: inline-block;
-                        width: 15px;
-                        height: 15px;
-                        -moz-border-radius: 7.5px;
-                        -webkit-border-radius: 7.5px;
-                        border-radius: 7.5px;
-                        color: #ffffff;;
+                        top: 35px;
+                        background-color: $primaryColor;
                     }
+                }
+                
+                .css-vcfpfv {
+                    -webkit-transform: none;
+                    -ms-transform: none;
+                    transform: none;
+                    outline: none;
+                    background-color: transparent;
+                    border: 1px solid $primaryColor;
+                    border-radius: 50%;
+                    top: 10px;
+                    
+                }
+
+                .css-692fgp{
+                    color: #3f3f3f;
+                    background-color: none;
+                    padding: 0;
                 }
             }
 
