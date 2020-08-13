@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import'./components/intro';
-@import './components/experience';
-@import './global/base';
-@import './global/breakpoints';
+@import './styles/common/base';
+@import './styles/common/breakpoints';
+@import'./styles/components/experience';
+@import'./styles/components/intro';
+
 
 /*----------- RESET ----------*/
 a{text-decoration:none; color:inherit; cursor:pointer;}
