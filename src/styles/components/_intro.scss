@@ -14,13 +14,14 @@ section#intro{
         position: relative;
         width: 72%;
         margin: 0 auto;
+        padding: 30px 0;
 
         img{
             width: 71px;
             height:auto;
         }
         p{
-            line-height: 20px;
+            line-height: 27px;
         }
         .hero_text{
             color: $primaryColor;

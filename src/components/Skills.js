@@ -2,7 +2,7 @@ import React from 'react'
 import { faJs, faNode, faReact, faHtml5, faCss3Alt, faSass } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const clientSideList = [ "JavaScript(ES06)", "React","HTML5","CSS3","Sass"]
+const clientSideList = [ "JavaScript(ES06)", "React","jQuery","HTML5","CSS3","Sass"]
 const serverSideList = ["Node.js","Express.js","MongoDB"]
 
 const Skills = () => {
@@ -22,7 +22,7 @@ const SkillList =({category, list})=>{
         <div className="skills_container">
             <h3>{category}</h3>
             <div className="skills_container_list">
-                {list.map(item => <div className="item">{item}</div>)}
+                {list.map((item,id ) => <div className="item" key={id}>{item}</div>)}
             </div>
         </div>
     )

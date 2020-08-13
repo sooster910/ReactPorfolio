@@ -1,0 +1,39 @@
+
+@import '../global/base';
+
+section {
+        &#experience{
+            background-color: #0f3470;
+          
+        }
+        
+        main{
+             @extend %sectionWidth;
+             
+            .experience_box_wrapper{
+                position: relative;
+                display:-moz-grid;
+                display:-ms-grid;
+                display:-webkit-grid;
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                column-gap: 10px;
+                color: #ffffff;
+
+                .experience_box{
+                    &:before{
+                        content:'';
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+                        -moz-border-radius: 7.5px;
+                        -webkit-border-radius: 7.5px;
+                        border-radius: 7.5px;
+                        color: #ffffff;;
+                    }
+                }
+            }
+
+        }
+    
+}
